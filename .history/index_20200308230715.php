@@ -10,7 +10,6 @@ include $_SERVER['DOCUMENT_ROOT'] . '/authorization.php';
 /*========================================================*/
 
 /*==== Это Шапка сайта, в ней находится
-
 так жеи АВТОРИЗАЦИЯ =======================*/
 // include "parts_site/site_header.php";
 // include "authorization.php";
