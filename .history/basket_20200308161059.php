@@ -73,7 +73,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/parts/header.php';
 								<td><?php echo $product['title'] ?></td>
 
 								<td oninput="recountProductBasket(this, <?php echo $product['id'] ?>)">
-									<input type="number" name="count" min="1" value="<?php echo $basket['products'][$i]['count'] ?>">
+									<input type="number" name="count"  value="<?php echo $basket['products'][$i]['count'] ?>">
 								</td>
 
 								<td><?php echo $basket['products'][$i]['costs']; ?></td>
